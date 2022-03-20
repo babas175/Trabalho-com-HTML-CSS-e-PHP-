@@ -303,7 +303,9 @@ ul li a:hover{
                     <li><a href="remover.php">EXCLUIR MORADOR</a></li>
                     <li><a href="atualizar.php">ATUALIZAR MORADOR</a></li>
                     <li><a href="lista_de_reservacao.php">LISTAR RESERVACAO </a></li>
-                    <li><a href="login1.php">SAIR</a></li>
+                    <li>
+                        <a onclick='return confirmar()' href="logout.php">SAIR</a>
+                    </li>
                 </ul>
             </div>
 
@@ -345,5 +347,11 @@ ul li a:hover{
     </footer>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14206.102087635581!2d-52.692080513122775!3d-27.108252865881095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b5f6b543c193%3A0x84ebb624ff24db56!2sR.%20Vinte%20e%20Cinco%20de%20Julho%2C%201049%20-%20Efapi%2C%20Chapec%C3%B3%20-%20SC%2C%2089809-549!5e0!3m2!1spt-BR!2sbr!4v1630173553410!5m2!1spt-BR!2sbr" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" justify-content= "center"></iframe>
     </div>
+
+    <script>
+        function confirmar(){
+            return confirm('Tem certeza que deseja sair ?');
+        }
+    </script>
 
 </html>

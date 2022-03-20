@@ -224,7 +224,7 @@ section {
 
 <style>
     body {
-      background-image: url('image.jpeg');
+      background-image: url('condomino.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed; 
       background-size: 100% 100%;
@@ -508,11 +508,8 @@ ul li a:hover{
 
             <div class="menu">
                 <ul>
-                    <li><a href="agenda1.php">AGENDAR </a></li>
+                    <li><a href="Morador/login1.php"> LOGIN </a></li>
                     <li><a href="https://api.whatsapp.com/message/6ED7OTOT7YPSH1">CONTATO</a></li>
-                    <li><a href="reservacao1.php">RESERVACAO</a></li>
-                    <li><a href="login1.php">SAIR</a></li>
-                    <li><a href="atualizar.php">ATUALIZAR DADOS</a></li>
                    
                 </ul>
             </div>
@@ -571,20 +568,17 @@ ul li a:hover{
             </div>
 
 				<p class="footer-links">
-					<a href="home_usuario.php" class="link-1">Home</a>
+					<a href="Morador/login1.php" class="link-1">Login</a>
 					
-					<a href="agenda1.php">Agenda</a>
+					
 				
 					<a href="https://api.whatsapp.com/message/6ED7OTOT7YPSH1">Contato</a>
 				
-					<a href="reservacao1.php">Reservacao</a>
-					
-					<a href="atualizar.php">Atualizar</a>
 					
 					
 				</p>
 
-				<p class="footer-company-name">Company Name © 2015</p>
+				<p class="footer-company-name">Company Name © 2022</p>
 			</div>
 
 			<div class="footer-center">
@@ -609,7 +603,7 @@ ul li a:hover{
 			<div class="footer-right">
 
 				<p class="footer-company-about">
-					<span>About the company</span>
+					<span>Sobre o condomino</span>
 					O Condomínio Residencial da Efapi está localizado a leste de Chapeco, no atual Setor
 Habitacional São Bartolomeu.
 				</p>

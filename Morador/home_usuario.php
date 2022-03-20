@@ -511,7 +511,9 @@ ul li a:hover{
                     <li><a href="agenda1.php">AGENDAR </a></li>
                     <li><a href="https://api.whatsapp.com/message/6ED7OTOT7YPSH1">CONTATO</a></li>
                     <li><a href="reservacao1.php">RESERVACAO</a></li>
-                    <li><a href="login1.php">SAIR</a></li>
+                    <li>
+                        <a onclick='return confirmar()' href="logout.php">SAIR</a>
+                    </li>
                     <li><a href="atualizar.php">ATUALIZAR DADOS</a></li>
                    
                 </ul>
@@ -624,4 +626,10 @@ Habitacional São Bartolomeu.
 			</div>
 
 		</footer>
+    <script>
+        function confirmar(){
+            return confirm('Tem certeza que deseja sair ?');
+        }
+    </script>
+
 </html>
